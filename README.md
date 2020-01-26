@@ -1,6 +1,6 @@
 # Cracking chrome browser 🚀
 
-_With this script, you can decrypt passwords saved in the Chrome browser_
+_With this script, you can decrypt saved passwords in the Chrome browser_
 
 ### Requirements 📋
 
@@ -11,7 +11,8 @@ pywin32
 ```
 ### Very important
 
-This software is made for educational purposes and in order to disseminate knowledge about computer science and informatic, I am not responsible for the misuse that may be given. Feel free to modify, download or copy it. use it for good
+This software is made for educational purposes and in order to disseminate knowledge about computer science and informatic. I am not responsible for the misuse that may be given. 
+Feel free to modify, download or copy it. Use it for good
 
 ### Tutorial 📖
 
