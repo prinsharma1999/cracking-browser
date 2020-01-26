@@ -1,4 +1,4 @@
-# Ransonware 🚀
+# Cracking chrome browser 🚀
 
 _With this script, you can decrypt passwords saved in the Chrome browser_
 
